@@ -1,0 +1,2 @@
+This folder contains images received by the '/upload' route of the api. The filename is a 
+timestamp of the time the image was uploaded, making the filenme unique.

@@ -1,0 +1,14 @@
+This folder contains face detection data (per individual face) for each received image:
+
+e.g. ->
+Original image: 12345678.jpg
+Individual faces dectected in original image:
+Face 1: 12345678-1.jpg
+Face 2: 12345678-2.jpg
+Face 3: 12345678-3.jpg
+
+etc...
+
+These files will sit here until a request matching the filename ("timestamp"-"face_id".jpg)  comes into the '/tag' endpoint, at which 
+time the files are processed into a face profile with tagging data.
+
